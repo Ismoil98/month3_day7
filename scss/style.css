@@ -81,7 +81,7 @@ body header .nav .sign.up {
 body main .hiro {
   background-image: url("../images/hiro_image.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 600px 556px;
   background-position: center right;
   padding: 145px 30px 220px;
 }
@@ -120,8 +120,95 @@ body main .hiro-btn {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  transition: all 0.5s ease;
 }
-body main .hiro-btn_main {
-  text-decoration-line: underline;
+body main .hiro-btn:hover {
+  background: #fff;
   color: #02897A;
+}
+body main .product_wrapper {
+  background-image: url("../images/product_bg.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+body main .product_wrapper .product .product_title {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 58px;
+  color: #22343D;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body main .product_wrapper .product .product_list {
+  padding-bottom: 60px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body main .product_wrapper .product .product_list .product_item {
+  width: 240px;
+}
+body main .product_wrapper .product .product_list .product_item img {
+  margin-bottom: 30px;
+}
+body main .product_wrapper .product .product_list .product_item h3 {
+  color: #22343D;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+body main .product_wrapper .product .product_list .product_item p {
+  color: #22343D;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+body main .product_wrapper .product .product-btn {
+  margin-left: 43%;
+  margin-bottom: 104px;
+}
+body main .management {
+  padding-top: 170px;
+  padding-bottom: 170px;
+  background-image: url("../images/management_image.png");
+  background-repeat: no-repeat;
+  background-size: 600px 556px;
+  background-position: center right;
+}
+body main .management .management_title {
+  margin-bottom: 23px;
+  color: #22343D;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body main .management p {
+  max-width: 465px;
+  margin-bottom: 25px;
+  color: #22343D;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+body main .management h3 {
+  color: #22343D;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 162.5% */
 }/*# sourceMappingURL=style.css.map */

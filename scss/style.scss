@@ -83,7 +83,7 @@ body {
     .hiro {
       background-image: url("../images/hiro_image.png");
       background-repeat: no-repeat;
-      background-size: contain;
+      background-size: 600px 556px;
       background-position: center right;
       padding: 145px 30px 220px;
       &-title {
@@ -121,17 +121,111 @@ body {
         font-style: normal;
         font-weight: 600;
         line-height: normal;
+        transition: all 0.5s ease;
+        &:hover {
+          background: #fff;
+          color: #02897A;
+        }
       }
-      &-btn_main {
-        text-decoration-line: underline;
-        color: #02897A;
+    }
+    .product_wrapper {
+      background-image: url("../images/product_bg.png");
+      background-repeat: no-repeat;
+      background-position: center bottom;
+      .product {
+        .product_title {
+          width: 500px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 58px;
+          color: #22343D;
+          text-align: center;
+          font-family: Poppins;
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+        .product_list {
+          padding-bottom: 60px;
+          list-style-type: none;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .product_item {
+            width: 240px;
+            img {
+              margin-bottom: 30px;
+            }
+            h3 {
+              color: #22343D;
+              font-family: Poppins;
+              font-size: 22px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+            }
+            p {
+              color: #22343D;
+              font-family: Poppins;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 26px; /* 162.5% */
+            }
+          }
+        }
+        .product-btn {
+          margin-left: 43%;
+          margin-bottom: 104px;
+        }    
+      }
+    
+    }
+    .management {
+      padding-top: 170px;
+      padding-bottom: 170px;
+      background-image: url("../images/management_image.png");
+      background-repeat: no-repeat;
+      background-size: 600px 556px;
+      background-position: center right;
+      .management_title {
+        margin-bottom: 23px;
+        color: #22343D;
+        font-family: Poppins;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      p {
+        max-width: 465px;
+        margin-bottom: 25px;
+        color: #22343D;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+      }
+      h3 {
+        color: #22343D;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px; /* 162.5% */
       }
     }
   }
 
+
   footer {
   }
 }
+    
+    
+
 
 
 // MEDIA 
