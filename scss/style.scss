@@ -80,11 +80,61 @@ body {
   }
 
   main {
+    .hiro {
+      background-image: url("../images/hiro_image.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center right;
+      padding: 145px 30px 220px;
+      &-title {
+        width: 400px;
+        margin-bottom: 18px;
+        color: #22343D;
+        font-family: Poppins;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px; /* 150% */
+      }
+      &-text {
+        width: 450px;
+        margin-bottom: 45px;
+        color: #22343D;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 155.556% */
+      }
+      & div {
+        display: flex;
+        align-items: center;
+      }
+      &-btn {
+        margin-right: 30px;
+        padding: 15px 40px;
+        color: #fff;
+        border-radius: 4px;
+        background: #02897A;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+      &-btn_main {
+        text-decoration-line: underline;
+        color: #02897A;
+      }
+    }
   }
 
   footer {
   }
 }
+
+
+// MEDIA 
 
 @media (max-width: 976px) {
 }
