@@ -178,12 +178,12 @@ body main .product_wrapper .product .product-btn {
   margin-bottom: 104px;
 }
 body main .management {
-  padding-top: 170px;
-  padding-bottom: 170px;
-  background-image: url("../images/management_image.png");
-  background-repeat: no-repeat;
-  background-size: 600px 556px;
-  background-position: center right;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 body main .management .management_title {
   margin-bottom: 23px;
@@ -211,4 +211,7 @@ body main .management h3 {
   font-style: normal;
   font-weight: 600;
   line-height: 26px; /* 162.5% */
+}
+body main .customer {
+  flex-direction: row-reverse;
 }/*# sourceMappingURL=style.css.map */
