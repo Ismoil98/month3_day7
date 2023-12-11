@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+}
+body header {
+  padding: 19px 0;
+}
+body header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+body header .nav .logo span {
+  color: #173a56;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 93.333% */
+}
+body header .nav-items {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+body header .nav-link {
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+body header .nav .sign {
+  padding: 10px 24px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 4px;
+}
+body header .nav .sign.in {
+  color: #173a56;
+  border: 1px solid #bcd0e5;
+}
+body header .nav .sign.up {
+  color: #fff;
+  background: #02897a;
+}/*# sourceMappingURL=style.css.map */
